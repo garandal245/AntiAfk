@@ -16,7 +16,7 @@ user_Zone_Y_Max = 100
 
 user_Zone_X_Min = int(input("enter min x value you would like it to right click in: "))
 user_Zone_X_Max = int(input("enter max x value you would like it to right click in: "))
-user_Zone_Y_Max = int(input("enter min y value you would like it to right click in: "))
+user_Zone_Y_Min = int(input("enter min y value you would like it to right click in: "))
 user_Zone_Y_Max = int(input("enter max y value you would like it to right click in: "))
 user_time = int(input("enter time in seconds you would like it to wait to activate: "))
 
