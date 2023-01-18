@@ -70,6 +70,7 @@ while True:
         y = random.randint(user_Zone_Y_Min, user_Zone_Y_Max)
         print("afk doing movement")
         pyautogui.moveTo(x, y, 0.5)
+        pyautogui.press('escape')
         pyautogui.click(button='right')
         afktimer = 0
         
